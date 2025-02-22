@@ -60,7 +60,7 @@ intAnswer = _
 If intAnswer = vbYes Then
     CreateObject("Wscript.Shell").run("beat.vbs")
     WScript.Sleep(7765)
-    CreateObject("Wscript.Shell").run("cmd.exe")
+    CreateObject("Wscript.Shell").run("beat1.vbs")
     WScript.Sleep(128)
     CreateObject("Wscript.Shell").run("cmd.exe")
     WScript.Sleep(5000)
